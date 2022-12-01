@@ -1,0 +1,35 @@
+.profile-header__info {
+  padding: 1rem 0 1rem 3rem;
+}
+
+.profile-header__info--heading {
+  margin: 0;
+  font-family: "Playfair Display", serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 700;
+  font-size: 2.2em;
+}
+
+.profile-header__info--heading span {
+  display: block;
+  text-shadow: -1px -1px 0px rgba(51, 51, 51, 0.692),
+    1px 1px 0px rgba(51, 51, 51, 0.223);
+}
+
+.profile-header__info--job-title {
+  padding: 8px;
+  background-color: #000;
+  color: #cfab00;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+
+.profile-header__info--address {
+  margin: 0;
+  margin-top: 5px;
+  font-size: 11px;
+  font-weight: bold;
+}

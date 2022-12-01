@@ -1,0 +1,15 @@
+.profile-header__image {
+  position: relative;
+  padding-top: 125%;
+}
+
+.profile-header__image img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: calc(100% + 2px);
+  transform: translateY(-2px);
+  object-fit: cover;
+  display: block;
+}

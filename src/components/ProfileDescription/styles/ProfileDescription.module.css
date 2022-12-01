@@ -1,0 +1,51 @@
+.profile-description {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  display: grid;
+  grid-template-columns: 340px 1fr;
+  background-color: rgb(237 184 12 / 92%);
+}
+
+.profile-description__role {
+  padding: 14px 2rem;
+  padding-bottom: 1.2rem;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  position: relative;
+}
+
+.profile-description__role > div {
+  position: absolute;
+  left: 20%;
+}
+
+.profile-description__role > div *:nth-child(1) {
+  padding-left: 10px;
+}
+
+.profile-description__role > div *:nth-child(1) span {
+  color: #f4f4f4;
+}
+
+.profile-description__role > div *:nth-child(2) {
+  display: grid;
+  grid-template-columns: 50px 1fr;
+  align-items: center;
+  grid-gap: 15px;
+}
+
+.profile-description__role > div *:nth-child(2) .empty {
+  width: 50px;
+  height: 13px;
+  background-color: #fff;
+}
+
+.profile-description__msg {
+  font-size: 12px;
+  background-color: #f1c947;
+  color: #333;
+  padding: 12px 2rem;
+  padding-bottom: 1.2rem;
+}

@@ -1,0 +1,40 @@
+.profile-container {
+  max-width: 900px;
+  margin: 10px auto;
+  background-color: #fff;
+  box-shadow: 0 1px 1.5px rgba(0, 0, 0, 0.25);
+}
+
+/* Header */
+.profile-container__header {
+  display: grid;
+  grid-template-columns: 340px 1fr;
+}
+
+.profile-container__header {
+  position: relative;
+}
+
+/* Main Wrapper */
+
+.profile-container main {
+  display: grid;
+  grid-template-columns: 340px 1fr;
+}
+
+/* Main */
+
+.profile-container main .main-container {
+  background-color: #fff;
+}
+
+.profile-container__skills--heading {
+  background-color: #cfab00;
+  margin: 0;
+  padding: 5px 0;
+  padding-right: 20px;
+  text-align: right;
+  text-transform: uppercase;
+  font-weight: normal;
+  letter-spacing: 2px;
+}

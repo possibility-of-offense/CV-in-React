@@ -1,0 +1,58 @@
+.profile-contact__contacts {
+  color: #fff;
+}
+
+.profile-contact__contacts ul,
+.profile-contact__contacts li {
+  list-style: none outside;
+}
+
+.profile-contact__contacts ul {
+  margin-top: 10px;
+  margin-bottom: 0;
+  padding-bottom: 15px;
+}
+
+.profile-contact__contacts li {
+  text-align: right;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  cursor: pointer;
+  padding-bottom: 10px;
+}
+
+.profile-contact__contacts li p {
+  margin: 0;
+}
+
+.profile-contact__contacts li p a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.profile-contact__contacts li p a span:nth-child(2) {
+  display: block;
+  font-size: 11px;
+  text-transform: lowercase;
+  letter-spacing: 1px;
+}
+
+.profile-contact__contacts li p:nth-child(1) {
+  text-transform: uppercase;
+}
+
+.profile-contact__contacts li div:nth-child(1) {
+  font-size: 13px;
+  letter-spacing: 1.2px;
+  padding-right: 10px;
+}
+
+.profile-contact__contacts li div:nth-child(2) {
+  font-size: 20px;
+  border-radius: 50%;
+  padding: 6px;
+  border: 1.2px solid #fff;
+  display: grid;
+  place-content: center;
+}

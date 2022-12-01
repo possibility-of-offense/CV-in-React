@@ -1,0 +1,38 @@
+.box-wrapper {
+  padding-right: 2rem;
+  text-align: right;
+}
+
+.box-wrapper__heading {
+  padding: 1.5rem 0 0 4rem;
+  color: #d5af06;
+  font-size: 17px;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+}
+
+.box-wrapper__line {
+  padding: 15px;
+  position: relative;
+}
+
+.box-wrapper__line::after {
+  content: "";
+  position: absolute;
+  background-color: #d5af06;
+  width: 100%;
+  left: 0;
+  height: 1px;
+}
+
+.box-wrapper__line::before {
+  content: "";
+  position: absolute;
+  right: 0;
+  border-radius: 4px;
+  background-color: #d5af06;
+  height: 5px;
+  width: 40px;
+  top: 50%;
+  transform: translateY(-40%);
+}

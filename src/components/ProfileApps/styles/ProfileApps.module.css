@@ -1,0 +1,38 @@
+.profile-apps {
+  padding-bottom: 30px;
+  list-style: none outside;
+  counter-reset: section;
+}
+
+.profile-apps li::before {
+  counter-increment: section;
+  content: counter(section);
+  position: absolute;
+}
+
+.profile-apps li:nth-child(odd) a {
+  position: relative;
+}
+
+.profile-apps li {
+  list-style: none outside;
+  text-align: left;
+  padding: 6px 4px;
+  padding-left: 7px;
+  margin: 7px 0;
+  background-color: #fff;
+  color: #333;
+  border-radius: 5px 0 5px 0;
+}
+
+.profile-apps li p {
+  margin: 0;
+  padding-left: 15px;
+}
+
+.profile-apps li a {
+  color: #333;
+  text-decoration: none;
+  width: 100%;
+  display: block;
+}

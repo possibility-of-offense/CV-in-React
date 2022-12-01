@@ -1,0 +1,36 @@
+.profile-skill {
+  text-align: right;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 10px;
+  color: #fff;
+}
+
+.profile-skill div:nth-child(1) {
+  /* border: 1px solid #cfab00; */
+  width: 80px;
+  height: 12px;
+  position: relative;
+  overflow: hidden;
+}
+
+.profile-skill div:nth-child(1)::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: 1px solid #cfab00;
+}
+
+.profile-skill div:nth-child(1) > div {
+  border: 1px solid #cfab00;
+  background-color: #cfab00;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  height: 100%;
+}
