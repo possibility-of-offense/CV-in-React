@@ -26,7 +26,6 @@ const ProfileExperience = () => {
       <h2>Professional Experience</h2>
       <div className={classes["profile-experience__line"]}></div>
       <div className={classes["profile-experience__jobs"]}>
-        <br />
         {memoizedJobs.jobs.length > 0 &&
           memoizedJobs.jobs.map((job) => (
             <ProfileExperienceJob

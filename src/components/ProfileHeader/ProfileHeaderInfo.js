@@ -14,7 +14,15 @@ const ProfileHeaderInfo = ({ name, title, address }) => {
       </p>
       <br />
       <br />
-      <p>This CV was created as a React App - check it out</p>
+      <p>
+        This CV was created as a React App -{" "}
+        <a
+          href="https://github.com/possibility-of-offense/CV-in-React"
+          target="_blank"
+        >
+          check it out&#x21;
+        </a>
+      </p>
     </div>
   );
 };

@@ -5,11 +5,12 @@
   display: grid;
   grid-template-columns: 340px 1fr;
   background-color: rgb(237 184 12 / 92%);
+  z-index: 2;
 }
 
 .profile-description__role {
-  padding: 14px 2rem;
-  padding-bottom: 1.2rem;
+  padding: 25px 2rem;
+  /* padding-bottom: 1.2rem; */
   color: #fff;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -18,7 +19,7 @@
 
 .profile-description__role > div {
   position: absolute;
-  left: 20%;
+  left: 30%;
 }
 
 .profile-description__role > div *:nth-child(1) {
@@ -44,8 +45,10 @@
 
 .profile-description__msg {
   font-size: 12px;
+  line-height: 1.5;
   background-color: #f1c947;
   color: #333;
   padding: 12px 2rem;
-  padding-bottom: 1.2rem;
+  /* padding-bottom: 1.2rem; */
+  padding-bottom: 15px;
 }
