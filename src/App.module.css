@@ -24,6 +24,10 @@
 
 /* Main */
 
+.profile-container__description {
+  grid-column: 1 / -1;
+}
+
 .profile-container main .main-container {
   background-color: #fff;
 }

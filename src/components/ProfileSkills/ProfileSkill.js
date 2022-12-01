@@ -6,7 +6,7 @@ const ProfileSkill = ({ skill }) => {
   return (
     <li className={classes["profile-skill"]}>
       <div>
-        <div style={{ left: `${diff}%` }}></div>
+        <div style={{ right: `${diff}%` }}></div>
       </div>
       <div>{skill.name}</div>
     </li>

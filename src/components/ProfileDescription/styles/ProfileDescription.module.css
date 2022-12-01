@@ -1,7 +1,7 @@
 .profile-description {
-  position: absolute;
+  /* position: absolute; */
   width: 100%;
-  bottom: 0;
+  /* bottom: 0; */
   display: grid;
   grid-template-columns: 340px 1fr;
   background-color: rgb(237 184 12 / 92%);
