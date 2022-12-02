@@ -4,7 +4,7 @@ import Navigation from "./components/Navigation/Navigation";
 function App() {
   return (
     <>
-      <Navigation />
+      {/* <Navigation /> */}
       <br />
       <Outlet />
     </>
