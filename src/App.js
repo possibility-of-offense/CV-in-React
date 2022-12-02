@@ -51,8 +51,8 @@ function App() {
         <div className={classes["profile-certificates__footer"]}>
           <p>
             <strong>Email:</strong>{" "}
-            <a href="mailto:ultimatemeaning90@gmail.com">
-              ultimatemeaning90@gmail.com
+            <a href="mailto:ventsi.iliev90@gmail.com">
+              ventsi.iliev90@gmail.com
             </a>
           </p>
           <p>
