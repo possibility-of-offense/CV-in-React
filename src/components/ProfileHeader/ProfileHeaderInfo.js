@@ -12,9 +12,18 @@ const ProfileHeaderInfo = ({ name, title, address }) => {
       <p className={classes["profile-header__info--address"]}>
         Address : {address}
       </p>
+      <div className={classes["profile-contact__info"]}>
+        <p>
+          <strong>Email:</strong>{" "}
+          <a href="mailto:ventsi.iliev90@gmail.com">ventsi.iliev90@gmail.com</a>
+        </p>
+        <p>
+          <strong>Phone:</strong> <a href="tel:359890399434">+359890399434</a>
+        </p>
+      </div>
       <br />
       <br />
-      <p>
+      <p className={classes["react-project__url"]}>
         This CV was created as a React App -{" "}
         <a
           href="https://github.com/possibility-of-offense/CV-in-React"

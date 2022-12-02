@@ -19,10 +19,12 @@
   text-align: left;
   padding: 6px 4px;
   padding-left: 7px;
+  padding-top: 40px;
   margin: 7px 0;
   background-color: #fff;
   color: #333;
   border-radius: 5px 0 5px 0;
+  position: relative;
 }
 
 .profile-apps li p {

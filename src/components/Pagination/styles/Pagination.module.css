@@ -1,0 +1,25 @@
+.pagination {
+  position: absolute;
+  bottom: 0;
+
+  background-color: rgb(237 184 12 / 92%);
+  width: 90px;
+  height: 100px;
+  display: grid;
+  place-content: center;
+  cursor: pointer;
+}
+
+.pagination--right {
+  right: 0;
+}
+
+.pagination--left {
+  left: 0;
+}
+
+.pagination h2 {
+  font-size: 5rem;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+  color: #fff;
+}

@@ -11,13 +11,7 @@ const ProfileEducation = () => {
           start: 2005,
           finish: 2009,
           specialty: ["Mathematics", "Informatics"],
-          subjects: [
-            "Mathematics",
-            "Informatics",
-            "English",
-            "German",
-            "Music",
-          ],
+          subjects: ["Mathematics", "Informatics", "English", "German"],
         },
         {
           name: "South-west university 'Neofit Rilski'",
