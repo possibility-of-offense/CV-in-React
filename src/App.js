@@ -8,6 +8,7 @@ import ProfileCertificates from "./components/ProfileCertificates/ProfileCertifi
 
 import classes from "./App.module.css";
 import ProfileApps from "./components/ProfileApps/ProfileApps";
+import ProfileEducation from "./components/ProfileEducation/ProfileEducation";
 
 function App() {
   let description = `Hello! My name is Ventsislav Iliev! I'm Front-End Developer from Blagoevgrad, Bulgaria who is looking for a job including JavaScript and React! I'm passionate about learning new things and dealing with daily challenges! If you're looking for a front-end developer who can work with React and is not afraid of writing HTML and CSS as well, I'm the person you're looking for :)`;
@@ -43,8 +44,22 @@ function App() {
         <section className={classes["main-container"]}>
           <ProfileExperience />
           <ProfileCertificates />
+          <ProfileEducation />
         </section>
       </main>
+      <footer>
+        <div className={classes["profile-certificates__footer"]}>
+          <p>
+            <strong>Email:</strong>{" "}
+            <a href="mailto:ultimatemeaning90@gmail.com">
+              ultimatemeaning90@gmail.com
+            </a>
+          </p>
+          <p>
+            <strong>Phone:</strong> <a href="tel:359890399434">+359890399434</a>
+          </p>
+        </div>
+      </footer>
     </div>
   );
 }

@@ -1,0 +1,101 @@
+.profile-education__wrapper {
+  border-top: 1px solid #333;
+  padding-top: 5px;
+  margin-top: 5px;
+  position: relative;
+}
+
+.profile-education__wrapper::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  border-radius: 4px;
+  background-color: #000;
+  height: 3px;
+  width: 40%;
+  top: 0;
+  transform: translateY(-50%);
+}
+
+.profile-education__wrapper h2 {
+  font-weight: normal;
+  margin: 10px;
+  letter-spacing: 2px;
+}
+
+.profile-education__wrapper--schools {
+  padding: 0 1rem;
+  padding-top: 12px;
+}
+
+.profile-education__wrapper--schools-single {
+  display: grid;
+  grid-template-columns: 55% 1fr;
+}
+
+.profile-education__wrapper--schools-single > div:nth-child(1) h4 {
+  font-size: 16px;
+  font-weight: 500;
+  margin: 0;
+  margin-bottom: 5px;
+}
+
+.profile-education__wrapper--schools-single > div:nth-child(1) p {
+  font-size: 11px;
+  letter-spacing: 1px;
+  color: #aca7a7;
+  margin: 0;
+}
+
+.profile-education__wrapper--schools-single > div:nth-child(1) p:last-of-type {
+  padding-bottom: 15px;
+}
+
+.profile-education__wrapper--schools-single > div:nth-child(2) {
+  position: relative;
+  padding-left: 30px;
+}
+
+.profile-education__wrapper--schools-single > div:nth-child(2)::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  left: 0;
+  width: 2px;
+  background-color: #e6e6e6;
+}
+
+.profile-education__wrapper--schools-single > div:nth-child(2)::after {
+  content: "";
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #787878;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translateX(-40%);
+}
+
+.profile-education__wrapper--schools-single > div:nth-child(2) h4 {
+  margin: 0;
+  margin-top: -5px;
+}
+
+.profile-education__wrapper--schools-single > div:nth-child(2) h4 p {
+  margin: 0;
+  font-weight: normal;
+}
+
+.profile-education__wrapper--schools-single__keys p {
+  font-size: 15px;
+  text-decoration: underline;
+}
+
+.profile-education__wrapper--schools-single__keys ul {
+  padding-left: 25px;
+  font-size: 14px;
+  padding-bottom: 20px;
+}

@@ -7,6 +7,19 @@ const ProfileExperience = () => {
   const memoizedJobs = useMemo(() => ({
     jobs: [
       {
+        title: "Restaurant Supervisor",
+        company: "The Restaurant Group plc",
+        start: "2014",
+        finish: "2019",
+        responsibilities: [
+          "Managing Front of House stuff",
+          "Ensuring great customer service",
+          "Oversee employees performance",
+          "Helping when needed on the bar and in the kitchen",
+          "Ensuring that the work environment is safe and secure",
+        ],
+      },
+      {
         title: "Web Developer",
         company: "Webselo Ltd.",
         start: "01/05/2020",

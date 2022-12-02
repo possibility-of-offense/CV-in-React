@@ -71,24 +71,6 @@ const ProfileCertificates = () => {
             />
           ))}
       </div>
-      <div className={classes.quote}>
-        <p>
-          When we are no longer able to change a situation, we are challenged to
-          change ourselves!
-        </p>
-        <p>Viktor Frankl</p>
-      </div>
-      <div className={classes["profile-certificates__footer"]}>
-        <p>
-          <strong>Email:</strong>{" "}
-          <a href="mailto:ultimatemeaning90@gmail.com">
-            ultimatemeaning90@gmail.com
-          </a>
-        </p>
-        <p>
-          <strong>Phone:</strong> <a href="tel:359890399434">+359890399434</a>
-        </p>
-      </div>
     </div>
   );
 };

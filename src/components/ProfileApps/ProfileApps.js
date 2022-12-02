@@ -50,8 +50,8 @@ const ProfileApps = () => {
   );
 
   return (
-    <div>
-      <Box bgColor="#000" heading="Projects">
+    <div style={{ height: "100%" }}>
+      <Box bgColor="#000" heading="Projects" additional={{ height: "100%" }}>
         <div className={classes["profile-apps"]}>
           <ul>
             {memoizedApps.apps.length > 0 &&
