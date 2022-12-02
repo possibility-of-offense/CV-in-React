@@ -20,7 +20,7 @@ const ProfileEducation = () => {
           finish: 2014,
           specialty: ["Philosophy"],
           subjects: [
-            "Login",
+            "Logic",
             "Ethics",
             "Aesthetics",
             "Religious Philosophy",
@@ -38,7 +38,7 @@ const ProfileEducation = () => {
 
   return (
     <div className={classes["profile-education__wrapper"]}>
-      <h2>Profile education</h2>
+      <h2>Education</h2>
       {memoizedSchools.schools.length > 0 && (
         <div className={classes["profile-education__wrapper--schools"]}>
           {memoizedSchools.schools.map((school) => (
