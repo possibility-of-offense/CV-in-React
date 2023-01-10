@@ -25,6 +25,7 @@ const ProfileExperience = () => {
         start: "01/05/2020",
         finish: "05/03/2022",
         responsibilities: [
+          "Bulding React component blocks for the Gutenberg editor in WordPress",
           "Building performant websites and e-commerce shop",
           "Making responsive and mobile design",
           "Creating UI elements on customers demand",
