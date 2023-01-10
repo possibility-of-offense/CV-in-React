@@ -1,16 +1,18 @@
 {
   "files": {
-    "main.css": "/CV-in-React/static/css/main.68c5e971.css",
-    "main.js": "/CV-in-React/static/js/main.56b7e567.js",
+    "main.css": "/CV-in-React/static/css/main.cd01ecba.css",
+    "main.js": "/CV-in-React/static/js/main.85b6393d.js",
     "static/js/787.a71561b8.chunk.js": "/CV-in-React/static/js/787.a71561b8.chunk.js",
-    "static/media/me.jpg": "/CV-in-React/static/media/me.6a970ba4ee86c734e34c.jpg",
+    "static/media/udemy-react.png": "/CV-in-React/static/media/udemy-react.6fd26d4691b778bed941.png",
+    "static/media/softuni-javascript-applications.png": "/CV-in-React/static/media/softuni-javascript-applications.dc4c9a7bbbdc884e0b14.png",
+    "static/media/react-native-fundamentals.png": "/CV-in-React/static/media/react-native-fundamentals.8e1025112a58eea1853e.png",
     "index.html": "/CV-in-React/index.html",
-    "main.68c5e971.css.map": "/CV-in-React/static/css/main.68c5e971.css.map",
-    "main.56b7e567.js.map": "/CV-in-React/static/js/main.56b7e567.js.map",
+    "main.cd01ecba.css.map": "/CV-in-React/static/css/main.cd01ecba.css.map",
+    "main.85b6393d.js.map": "/CV-in-React/static/js/main.85b6393d.js.map",
     "787.a71561b8.chunk.js.map": "/CV-in-React/static/js/787.a71561b8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.68c5e971.css",
-    "static/js/main.56b7e567.js"
+    "static/css/main.cd01ecba.css",
+    "static/js/main.85b6393d.js"
   ]
 }
