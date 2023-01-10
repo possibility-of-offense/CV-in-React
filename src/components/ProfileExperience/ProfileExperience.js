@@ -9,8 +9,8 @@ const ProfileExperience = () => {
       {
         title: "Restaurant Supervisor",
         company: "The Restaurant Group plc",
-        start: "2014",
-        finish: "2019",
+        start: "06/09/2014",
+        finish: "01/05/2019",
         responsibilities: [
           "Managing Front of House stuff",
           "Ensuring great customer service",

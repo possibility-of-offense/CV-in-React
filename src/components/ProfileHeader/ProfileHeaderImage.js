@@ -1,4 +1,4 @@
-import image from "./me.jpg";
+// import image from "./me.jpg";
 import classes from "./styles/ProfileHeaderImage.module.css";
 
 const ProfileHeaderImage = ({ title }) => {

@@ -25,12 +25,20 @@ const ProfileSkills = () => {
           level: 10,
         },
         {
+          name: "Express",
+          level: 7,
+        },
+        {
           name: "Vue Js",
           level: 8,
         },
         {
           name: "React",
           level: 9,
+        },
+        {
+          name: "React Native",
+          level: 7,
         },
         {
           name: "React Router",

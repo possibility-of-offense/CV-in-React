@@ -20,6 +20,15 @@ const ProfileHeaderInfo = ({ name, title, address }) => {
         <p>
           <strong>Phone:</strong> <a href="tel:359890399434">+359890399434</a>
         </p>
+        <p className={classes["website"]}>
+          <strong>Personal Website:</strong>
+          <a
+            href="https://possibility-of-offense.github.io/Personal-Website/"
+            target="_blank"
+          >
+            https://possibility-of-offense.github.io/Personal-Website/
+          </a>
+        </p>
       </div>
       <br />
       <br />

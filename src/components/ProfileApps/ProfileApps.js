@@ -13,6 +13,23 @@ const ProfileApps = () => {
     () => ({
       apps: [
         {
+          name: "iMDB Clone",
+          url: "https://github.com/possibility-of-offense/iMDB-clone",
+          technologies: {
+            react: <ReactIcon />,
+            redux: <ReduxIcon />,
+            reactRouter: <ReactRouterIcon />,
+            firebase: <FirebaseIcon />,
+          },
+        },
+        {
+          name: "Destinations App - React native",
+          url: "https://github.com/possibility-of-offense/Destinations-app-with-React-Native",
+          technologies: {
+            react: <ReactIcon />,
+          },
+        },
+        {
           name: "Social Media Attempt",
           url: "https://github.com/possibility-of-offense/Social-Media-Attempt",
           technologies: {
@@ -73,15 +90,6 @@ const ProfileApps = () => {
           url: "https://github.com/possibility-of-offense/React-order-app-with-Context-API-based-views",
           technologies: {
             react: <ReactIcon />,
-          },
-        },
-        {
-          name: "Partial IMDb single movie page",
-          url: "https://github.com/possibility-of-offense/Partial-IMDb-single-movie-page",
-          technologies: {
-            react: <ReactIcon />,
-            redux: <ReduxIcon />,
-            firebase: <FirebaseIcon />,
           },
         },
       ],

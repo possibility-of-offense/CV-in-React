@@ -36,6 +36,7 @@
 
 .profile-contact__info {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   padding-top: 1rem;
 }
@@ -55,4 +56,18 @@
   padding: 5px 15px;
   border-radius: 5px 0 0 5px;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+}
+
+.website {
+  flex: 1;
+  margin-top: 10px !important;
+  display: flex;
+  flex-direction: column;
+}
+
+.website a {
+  color: #cfab00 !important;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
 }
