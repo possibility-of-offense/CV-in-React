@@ -1,5 +1,6 @@
 import { useMemo } from "react";
 import FirebaseIcon from "../Icons/FirebaseIcon";
+import JavascriptIcon from "../Icons/JavascriptIcon";
 import ReactIcon from "../Icons/ReactIcon";
 import ReactRouterIcon from "../Icons/ReactRouterIcon";
 import ReduxIcon from "../Icons/ReduxIcon";
@@ -90,6 +91,13 @@ const ProfileApps = () => {
           url: "https://github.com/possibility-of-offense/React-order-app-with-Context-API-based-views",
           technologies: {
             react: <ReactIcon />,
+          },
+        },
+        {
+          name: "Live Commerce Assistant",
+          url: "https://appexchange.salesforce.com/appxListingDetail?listingId=0b6f19ce-3ae0-4f37-bf65-9d5cbdee995f",
+          technologies: {
+            react: <JavascriptIcon />,
           },
         },
       ],

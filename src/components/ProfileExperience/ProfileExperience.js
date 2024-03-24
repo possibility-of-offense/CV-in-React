@@ -33,6 +33,19 @@ const ProfileExperience = () => {
             "Designing and refining presentatinal websites",
           ],
         },
+        {
+          title: "React Developer",
+          company: "ZaUtre",
+          start: "01/02/2023",
+          finish: "",
+          responsibilities: [
+            "Bulding React component for ecommerce sites",
+            "Creating Salesforce Commerce Cloud plugins and integrations",
+            "Building automations for the Salesforce Lightning Platform",
+            "Manipulating complex data in Salesforce through Apex (Java-similar language)",
+            "Creator and maintainer of ZaUtre Commerce Assistant Cartridge",
+          ],
+        },
       ],
     }),
     []

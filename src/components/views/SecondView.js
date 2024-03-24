@@ -14,7 +14,7 @@ const SecondView = () => {
             Apps
           </h3>
           <ProfileApps />
-          <Pagination num={2} position="left" routing="/" />
+          <Pagination num={2} position="left" routing="/" next={false} />
         </aside>
         <section>
           <ProfileCertificates />

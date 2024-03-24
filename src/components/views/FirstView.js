@@ -9,20 +9,25 @@ import classes from "./styles/FirstView.module.css";
 import Pagination from "../Pagination/Pagination";
 
 const FirstView = () => {
-  let description = `Hello! My name is Ventsislav Iliev! I'm Front-End Developer from Blagoevgrad, Bulgaria who is looking for a job including JavaScript and React! I'm passionate about learning new things and dealing with daily challenges! If you're looking for a front-end developer who can work with React and is not afraid of writing HTML and CSS as well, I'm the person you're looking for :)`;
+  let description = `Hello! My name is Ventsislav Iliev! I'm Full-Stack Developer from Blagoevgrad, 
+  Bulgaria who is looking for a job including with NodeJs, React or Python! 
+  I'm passionate about learning new things and dealing with daily challenges! 
+  I'm a certified Salesforce Commerce Cloud developer and a creator the
+  Commerce Assistant for Commerce Cloud, which is an AI-driven live chat,
+  which has the purpose of showing product recommendations.`;
 
   return (
     <div className={classes["profile-container__first"]}>
       <header className={classes["profile-container__header"]}>
-        <ProfileHeaderImage title="Ventsislav Iliev - Front-end Developer" />
+        <ProfileHeaderImage title="Ventsislav Iliev - Full-Stack Developer" />
         <ProfileHeaderInfo
           name="Ventsislav Iliev"
-          title="Front-End Developer"
+          title="Full-Stack Developer"
           address="Blagoevgrad Elenovo 62 A fl.6 ap.18"
         />
         <section className={classes["profile-container__description"]}>
           <ProfileDescription
-            title="Front-End Developer"
+            title="Full-Stack Developer"
             description={description}
           />
         </section>

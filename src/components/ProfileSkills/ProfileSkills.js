@@ -56,6 +56,14 @@ const ProfileSkills = () => {
           name: "Python",
           level: 7,
         },
+        {
+          name: "Apex",
+          level: 9,
+        },
+        {
+          name: "Lightning Web Components",
+          level: 10,
+        },
       ],
     }),
     []

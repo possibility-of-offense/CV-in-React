@@ -8,7 +8,7 @@ const ProfileExperienceJob = ({ job }) => {
       <div>
         <p>{title}</p>
         <p>
-          {start} - {finish}
+          {start} {finish ? ` - ${finish}` : null}
         </p>
         <br />
         <p>Company: {company}</p>

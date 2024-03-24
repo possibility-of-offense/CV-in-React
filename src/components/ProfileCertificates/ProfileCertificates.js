@@ -11,6 +11,7 @@ import webAppsVueJs from "./certificates/build-web-apps-vue-js-3.png";
 import modernJS from "./certificates/modern-javascript.png";
 import reactJs from "./certificates/udemy-react.png";
 import reactNative from "./certificates/react-native-fundamentals.png";
+import commerceCloud from "./certificates/hnwnmtgk2rzgnoexihlr.webp";
 
 import { useMemo } from "react";
 import ProfileCertificate from "./ProfileCertifcate";
@@ -73,6 +74,11 @@ const ProfileCertificates = () => {
           name: "React Native Fundamentals",
           url: "https://codewithmosh.com/courses/887220/certificate",
           img: reactNative,
+        },
+        {
+          name: "Salesforce Commerce Cloud Developer",
+          url: "https://www.salesforce.com/trailblazer/viliev5",
+          img: commerceCloud,
         },
       ],
     }),
