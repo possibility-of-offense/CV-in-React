@@ -1,19 +1,21 @@
 {
   "files": {
-    "main.css": "/CV-in-React/static/css/main.7cd5176f.css",
-    "main.js": "/CV-in-React/static/js/main.5840bb2a.js",
+    "main.css": "/CV-in-React/static/css/main.a42b7cc6.css",
+    "main.js": "/CV-in-React/static/js/main.37447e0c.js",
     "static/js/787.a71561b8.chunk.js": "/CV-in-React/static/js/787.a71561b8.chunk.js",
     "static/media/udemy-react.png": "/CV-in-React/static/media/udemy-react.6fd26d4691b778bed941.png",
     "static/media/softuni-javascript-applications.png": "/CV-in-React/static/media/softuni-javascript-applications.dc4c9a7bbbdc884e0b14.png",
     "static/media/me.jpg": "/CV-in-React/static/media/me.274493c6a805c7ea12f0.jpg",
+    "static/media/hnwnmtgk2rzgnoexihlr.webp": "/CV-in-React/static/media/hnwnmtgk2rzgnoexihlr.4b1d8a6e64998d47c053.webp",
     "static/media/react-native-fundamentals.png": "/CV-in-React/static/media/react-native-fundamentals.8e1025112a58eea1853e.png",
+    "static/media/Unofficial_JavaScript_logo_2.svg.png": "/CV-in-React/static/media/Unofficial_JavaScript_logo_2.svg.5aee537b1de530fe664b.png",
     "index.html": "/CV-in-React/index.html",
-    "main.7cd5176f.css.map": "/CV-in-React/static/css/main.7cd5176f.css.map",
-    "main.5840bb2a.js.map": "/CV-in-React/static/js/main.5840bb2a.js.map",
+    "main.a42b7cc6.css.map": "/CV-in-React/static/css/main.a42b7cc6.css.map",
+    "main.37447e0c.js.map": "/CV-in-React/static/js/main.37447e0c.js.map",
     "787.a71561b8.chunk.js.map": "/CV-in-React/static/js/787.a71561b8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7cd5176f.css",
-    "static/js/main.5840bb2a.js"
+    "static/css/main.a42b7cc6.css",
+    "static/js/main.37447e0c.js"
   ]
 }
