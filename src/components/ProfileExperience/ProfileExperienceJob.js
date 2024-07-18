@@ -11,7 +11,7 @@ const ProfileExperienceJob = ({ job }) => {
           {start} {finish ? ` - ${finish}` : null}
         </p>
         <br />
-        <p>Company: {company}</p>
+        {company && <p>Company: {company}</p>}
       </div>
       <div>
         {responsibilities.length > 0 &&

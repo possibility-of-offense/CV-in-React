@@ -9,15 +9,7 @@ const ProfileSkills = () => {
     () => ({
       skills: [
         {
-          name: "HTML",
-          level: 10,
-        },
-        {
-          name: "CSS",
-          level: 10,
-        },
-        {
-          name: "SASS",
+          name: "HTML, CSS, SASS",
           level: 8,
         },
         {
@@ -29,11 +21,11 @@ const ProfileSkills = () => {
           level: 7,
         },
         {
-          name: "Vue Js",
-          level: 8,
+          name: "React, Redux",
+          level: 9,
         },
         {
-          name: "React",
+          name: "NextJS",
           level: 9,
         },
         {
@@ -42,10 +34,6 @@ const ProfileSkills = () => {
         },
         {
           name: "React Router",
-          level: 9,
-        },
-        {
-          name: "Redux",
           level: 9,
         },
         {
@@ -63,6 +51,10 @@ const ProfileSkills = () => {
         {
           name: "Lightning Web Components",
           level: 10,
+        },
+        {
+          name: "Docker, Kubernetes",
+          level: 7,
         },
       ],
     }),

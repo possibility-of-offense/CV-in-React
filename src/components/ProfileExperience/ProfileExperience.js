@@ -8,16 +8,27 @@ const ProfileExperience = () => {
     () => ({
       jobs: [
         {
-          title: "Restaurant Supervisor",
-          company: "The Restaurant Group plc",
-          start: "06/09/2014",
-          finish: "01/05/2019",
+          title: "Freelancer",
+          company: "",
+          start: "01/07/2024",
+          finish: "",
           responsibilities: [
-            "Managing Front of House stuff",
-            "Ensuring great customer service",
-            "Oversee employees performance",
-            "Helping when needed on the bar and in the kitchen",
-            "Ensuring that the work environment is safe and secure",
+            "Redesigning exinsting web site interfaces",
+            "Applying custom UI functionalities",
+            "Building new responsive designs",
+          ],
+        },
+        {
+          title: "React Developer",
+          company: "ZaUtre",
+          start: "01/02/2023",
+          finish: "01/07/2024",
+          responsibilities: [
+            "Bulding React component for ecommerce sites",
+            "Creating Salesforce Commerce Cloud plugins and integrations",
+            "Building automations for the Salesforce Lightning Platform",
+            "Manipulating complex data in Salesforce through Apex (Java-similar language)",
+            "Creator and maintainer of ZaUtre Commerce Assistant Cartridge",
           ],
         },
         {
@@ -31,19 +42,6 @@ const ProfileExperience = () => {
             "Making responsive and mobile design",
             "Creating UI elements on customers demand",
             "Designing and refining presentatinal websites",
-          ],
-        },
-        {
-          title: "React Developer",
-          company: "ZaUtre",
-          start: "01/02/2023",
-          finish: "",
-          responsibilities: [
-            "Bulding React component for ecommerce sites",
-            "Creating Salesforce Commerce Cloud plugins and integrations",
-            "Building automations for the Salesforce Lightning Platform",
-            "Manipulating complex data in Salesforce through Apex (Java-similar language)",
-            "Creator and maintainer of ZaUtre Commerce Assistant Cartridge",
           ],
         },
       ],
